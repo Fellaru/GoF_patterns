@@ -7,6 +7,8 @@ import ru.fella.learn.patterns.structural.adapter.square.SquarePegImpl;
 
 /**
  * @author fellaru
+ *
+ * Паттерн адаптер применяется, когда объектам с несовместимыми интерфейсами необходимо работать друг с другом.
  */
 public class Main {
 
