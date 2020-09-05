@@ -1,5 +1,6 @@
 package ru.fella.learn.patterns.structural.composite;
 
+import java.time.Instant;
 import java.util.List;
 
 /**
@@ -13,7 +14,9 @@ public class Main {
         System.out.println(simpleProduct.cost());
 
         Product compositeProduct = compositeProduct();
-        compositeProduct.cost();
+        System.out.println(compositeProduct.cost());
+
+        System.out.println(String.format("%s: %s", "jungle", Instant.now()));
     }
 
     private static Product simpleProduct(){
